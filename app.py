@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from pallet_core import plan_min_pallets  # 直接用你现有的函数
+from pallet_core import plan_min_pallets  
 
 st.set_page_config(page_title="Expected Number of Pallets", layout="wide")
 st.title("Expected Number of Pallets（Kozed/Crisup/CandyMaster）")
@@ -34,7 +34,7 @@ if submitted:
     with st.spinner("Calculating..."):
         total, pallets = plan_min_pallets(orders)
 
-    st.success(f"Minimum **{total}** 个 Pallet")
+    st.success(f"Minimum **{total}**  Pallet")
     st.caption(f"Orders：{orders}")
     st.divider()
 
