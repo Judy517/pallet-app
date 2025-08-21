@@ -17,7 +17,7 @@ class Case:
     L: float; W: float; H: float  # inches
 
 # ---------------- Product cases dimension ----------------
-Kozed60      = Case(16.00, 10.00, 10.00)   
+Kozed60      = Case(16.00, 10.00, 10.63)   
 Kozed24      = Case(15.50, 10.00,  4.80)   
 Crisup24     = Case(20.39, 12.60,  8.85)   
 Crisup20     = Case(15.94, 13.19,  5.12)   
