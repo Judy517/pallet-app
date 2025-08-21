@@ -3,7 +3,7 @@ import streamlit as st
 from pallet_core import plan_min_pallets  
 
 st.set_page_config(page_title="Expected Number of Pallets", layout="wide")
-st.title("Expected Number of Pallets（Kozed/Crisup/CandyMaster）")
+st.title("Expected Number of Pallets")
 
 st.markdown("Please Enter **number of cases（cases）**，then click“Calculate”to get the minimum of pallet and the layer-by-layer arrangement pallet.")
 
